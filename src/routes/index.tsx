@@ -92,13 +92,13 @@ const PROJECTS = [
     title: "IMDb Sentiment Analysis",
     description:
       "Compared RNN, LSTM, and GRU architectures on the IMDb reviews dataset to benchmark sequence models for binary sentiment classification.",
-    role: "Sole developer — data prep, model design, training & evaluation",
+    role: "Team Member — data prep, model design, training & evaluation",
     stack: ["Python", "PyTorch", "NumPy", "Matplotlib"],
     href: "https://github.com/thinleisandi",
     tag: "NLP · Deep Learning",
   },
   {
-    title: "NLP Final Project",
+    title: "NLP Skip-gram Project",
     description:
       "End-to-end NLP pipeline covering text preprocessing, feature engineering, and model comparison on a real-world text dataset.",
     role: "Team member — preprocessing, modeling, and reporting",
@@ -119,7 +119,7 @@ const PROJECTS = [
     title: "Data Storm Vietnam 2025",
     description:
       "Datathon submission tackling a real business problem under tight constraints — exploratory analysis, modeling, and story-driven presentation.",
-    role: "Team member — EDA, modeling, and insight communication",
+    role: "Team member — EDA, modeling,eva;uation and insight communication",
     stack: ["Python", "Pandas", "Seaborn", "Scikit-learn"],
     href: "https://github.com/thinleisandi",
     tag: "Competition",
