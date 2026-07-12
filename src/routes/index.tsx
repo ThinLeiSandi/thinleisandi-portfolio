@@ -91,7 +91,7 @@ const PROJECTS = [
   {
     title: "IMDb Sentiment Analysis",
     description:
-      "Compared RNN, LSTM, and GRU architectures on the IMDb reviews dataset to benchmark sequence models for binary sentiment classification.",
+      "Compared RNN, LSTM and GRU architectures on the IMDb reviews dataset to benchmark sequence models for binary sentiment classification.",
     role: "Team Member — data prep, model design, training & evaluation",
     stack: ["Python", "PyTorch", "NumPy", "Matplotlib"],
     href: "https://github.com/thinleisandi",
@@ -100,7 +100,7 @@ const PROJECTS = [
   {
     title: "NLP Skip-gram Project",
     description:
-      "End-to-end NLP pipeline covering text preprocessing, feature engineering, and model comparison on a real-world text dataset.",
+      "End-to-end NLP pipeline covering text preprocessing, feature engineering and model comparison on a real-world text dataset.",
     role: "Team member — preprocessing, modeling, and reporting",
     stack: ["Python", "Scikit-learn", "Pandas", "NLTK"],
     href: "https://github.com/thinleisandi",
@@ -217,8 +217,8 @@ function Hero() {
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
             Final-year Computer Science student at{" "}
             <span className="text-foreground">Ton Duc Thang University</span>. I build
-            practical ML, NLP, and data projects — from sentiment analysis with recurrent
-            networks to early-warning systems that help students stay in school.
+            practical ML, NLP and data analysis projects — from sentiment analysis with
+            recurrent networks to early-warning systems that help students stay in school.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <a
@@ -282,8 +282,8 @@ function About() {
           <div className="card-glass card-glass-hover gradient-border rounded-2xl p-8 md:p-10">
             <p className="text-lg leading-relaxed text-muted-foreground md:text-xl">
               I'm drawn to problems where{" "}
-              <span className="text-foreground">data, machine learning, and NLP</span>{" "}
-              meet the real world — predicting outcomes, understanding language, and
+              <span className="text-foreground">data, machine learning and NLP</span>{" "}
+              meet the real world — predicting outcomes, understanding language and
               turning messy signals into useful decisions. I like building useful
               projects and learning from practical work: less theory for its own sake,
               more shipping things that actually help people.
