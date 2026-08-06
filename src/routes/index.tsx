@@ -212,9 +212,12 @@ function Hero() {
           </p>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
             Final-year Computer Science student at{" "}
-            <span className="text-foreground">Ton Duc Thang University</span>. I build
-            practical ML, NLP and data analysis projects — from sentiment analysis with
-            recurrent networks to early-warning systems that help students stay in school.
+            <span className="text-foreground">Ton Duc Thang University</span> with a
+            strong interest in Data Science, Machine Learning and NLP. I like
+            working on projects that combine technical problem solving with
+            practical impact. My experience includes data analysis and
+            visualizations, early warning systems, big data processing and UI/UX
+            design.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <a
