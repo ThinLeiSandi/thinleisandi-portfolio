@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import resumePdf from "@/assets/Thin_Lei_Sandi_-_CV_2.pdf.asset.json";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   ArrowRight,
   Mail,
