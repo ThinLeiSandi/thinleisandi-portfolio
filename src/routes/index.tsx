@@ -482,8 +482,8 @@ function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "thinleisandi@gmail.com",
-      href: "mailto:thinleisandi@gmail.com",
+      value: "thinlei.ori16@gmail.com",
+      href: "mailto:thinlei.ori16@gmail.com",
     },
     {
       icon: Github,
