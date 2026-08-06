@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import resumePdf from "@/assets/Thin_Lei_Sandi_-_CV_2.pdf.asset.json";
 import {
   ArrowRight,
   Mail,
@@ -527,7 +528,8 @@ function Contact() {
         </div>
         <div className="mt-10 flex justify-center">
           <a
-            href="/resume.pdf"
+            href={resumePdf.url}
+            download="Thin_Lei_Sandi_-_CV_2.pdf"
             className="group inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
           >
             <Download className="h-4 w-4" />
@@ -567,7 +569,7 @@ function Footer() {
             <Linkedin className="h-4 w-4" />
           </a>
           <a
-            href="mailto:thinleisandi@gmail.com"
+            href="mailto:thinlei.ori16@gmail.com"
             className="hover:text-foreground"
             aria-label="Email"
           >
