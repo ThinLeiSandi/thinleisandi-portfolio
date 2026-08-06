@@ -91,21 +91,12 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "IMDb Sentiment Analysis",
-    description:
-      "Compared RNN, LSTM and GRU architectures on the IMDb reviews dataset to benchmark sequence models for binary sentiment classification.",
-    role: "Team Member — data prep, model design, training & evaluation",
-    stack: ["Python", "PyTorch", "NumPy", "Matplotlib"],
-    href: "https://github.com/thinleisandi",
-    tag: "NLP · Deep Learning",
-  },
-  {
     title: "NLP Skip-gram Project",
     description:
       "End-to-end NLP pipeline covering text preprocessing, feature engineering and model comparison on a real-world text dataset.",
     role: "Team member — preprocessing, modeling, and reporting",
     stack: ["Python", "Scikit-learn", "Pandas", "NLTK"],
-    href: "https://github.com/thinleisandi",
+    href: "https://github.com/ThinLeiSandi/NLP-Final-Project.git",
     tag: "Natural Language Processing",
   },
   {
@@ -114,7 +105,7 @@ const PROJECTS = [
       "Early-warning system that predicts at-risk students using academic and behavioral signals so advisors can intervene sooner.",
     role: "ML lead — feature engineering, model selection, evaluation",
     stack: ["Python", "Scikit-learn", "Pandas", "Streamlit"],
-    href: "https://github.com/thinleisandi",
+    href: "https://github.com/ThinLeiSandi/Student-Dropout-Prevention---Early-Warning-System.git",
     tag: "Machine Learning",
   },
   {
@@ -123,7 +114,7 @@ const PROJECTS = [
       "Datathon submission tackling a real business problem under tight constraints — exploratory analysis, modeling, and story-driven presentation.",
     role: "Team member — EDA, modeling,eva;uation and insight communication",
     stack: ["Python", "Pandas", "Seaborn", "Scikit-learn"],
-    href: "https://github.com/thinleisandi",
+    href: "https://github.com/ThinLeiSandi/2025_Datathon-Trained_Models.git",
     tag: "Competition",
   },
   {
@@ -132,7 +123,7 @@ const PROJECTS = [
       "Course project on processing and analyzing large-scale datasets with distributed and batch pipelines.",
     role: "Team member — pipeline design and performance analysis",
     stack: ["Python", "SQL", "Spark concepts"],
-    href: "https://github.com/thinleisandi",
+    href: "https://github.com/ThinLeiSandi/Mining-Massive-Datasets-Gold-Price-Prediction.git",
     tag: "Big Data",
   },
   {
@@ -141,7 +132,7 @@ const PROJECTS = [
       "Designed and prototyped the UI/UX for a software engineering course project, from user flows to hi-fi mockups.",
     role: "UI/UX designer — research, wireframes, prototypes",
     stack: ["Figma", "Balsamiq"],
-    href: "https://github.com/thinleisandi",
+    href: "https://www.figma.com/design/46msmfky7dFkC95G5wXhN6/Final_Project?node-id=0-1&t=UBTwxKfqYvERC1p6-1",
     tag: "Design",
   },
 ];
