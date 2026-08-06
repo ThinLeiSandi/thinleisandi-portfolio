@@ -119,7 +119,6 @@ function RootShell({ children }: { children: ReactNode }) {
             __html: `try{var t=localStorage.getItem('theme');if(t==='light'){document.documentElement.classList.remove('dark')}}catch(e){}`,
           }}
         />
-      <head>
         <HeadContent />
       </head>
       <body>
