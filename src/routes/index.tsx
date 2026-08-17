@@ -534,8 +534,8 @@ function Contact() {
         </div>
         <div className="mt-10 flex justify-center">
           <a
-            href="/Thin_Lei_Sandi_-_CV-3.pdf"
-            download="Thin_Lei_Sandi_-_CV-3.pdf"
+            href="/Thin_Lei_Sandi-CV.pdf"
+            download="Thin_Lei_Sandi-CV.pdf"
             target="_blank"
             rel="noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
