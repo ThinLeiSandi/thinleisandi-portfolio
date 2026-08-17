@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import cvPdf from "@/assets/Thin_Lei_Sandi_CV.pdf.asset.json";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   ArrowRight,
