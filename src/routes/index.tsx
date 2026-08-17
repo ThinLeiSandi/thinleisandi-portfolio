@@ -502,8 +502,8 @@ function Contact() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/thinleisandi",
-      href: "https://www.linkedin.com/in/thinleisandi",
+      value: "https://www.linkedin.com/in/thinleisandi02/",
+      href: "https://www.linkedin.com/in/thinleisandi02/",
     },
   ];
   return (
