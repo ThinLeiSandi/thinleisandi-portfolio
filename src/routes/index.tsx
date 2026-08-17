@@ -502,7 +502,7 @@ function Contact() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "https://www.linkedin.com/in/thinleisandi02/",
+      value: "linkedin.com/in/thinleisandi02/",
       href: "https://www.linkedin.com/in/thinleisandi02/",
     },
   ];
