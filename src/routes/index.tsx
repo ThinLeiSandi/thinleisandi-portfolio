@@ -569,7 +569,7 @@ function Footer() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="https://www.linkedin.com/in/thinleisandi"
+            href="https://www.linkedin.com/in/thinleisandi02/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-foreground"
