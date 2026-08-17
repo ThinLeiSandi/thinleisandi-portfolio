@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import cvPdf from "@/assets/Thin_Lei_Sandi_CV.pdf.asset.json";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   ArrowRight,
@@ -535,7 +534,7 @@ function Contact() {
         </div>
         <div className="mt-10 flex justify-center">
           <a
-            href={cvPdf.url}
+            href="/Thin_Lei_Sandi_CV.pdf"
             download="Thin_Lei_Sandi_CV.pdf"
             target="_blank"
             rel="noreferrer"
