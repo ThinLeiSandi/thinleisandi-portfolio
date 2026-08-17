@@ -534,7 +534,7 @@ function Contact() {
         </div>
         <div className="mt-10 flex justify-center">
           <a
-            href={cvPdf.url}
+            href="/Thin_Lei_Sandi_CV.pdf"
             download="Thin_Lei_Sandi_CV.pdf"
             target="_blank"
             rel="noreferrer"
