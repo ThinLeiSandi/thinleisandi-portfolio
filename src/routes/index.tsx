@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import resumePdf from "@/assets/Thin_Lei_Sandi_-_CV_2.pdf.asset.json";
+import cvPdf from "@/assets/Thin_Lei_Sandi_CV.pdf.asset.json";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   ArrowRight,
@@ -535,12 +535,14 @@ function Contact() {
         </div>
         <div className="mt-10 flex justify-center">
           <a
-            href={resumePdf.url}
-            download="Thin_Lei_Sandi_-_CV_2.pdf"
+            href={cvPdf.url}
+            download="Thin_Lei_Sandi_CV.pdf"
+            target="_blank"
+            rel="noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
           >
             <Download className="h-4 w-4" />
-            Download Resume
+            Download CV
           </a>
         </div>
       </div>
