@@ -201,7 +201,7 @@ function Hero() {
         className="absolute inset-0 -z-10 opacity-40 [background-image:radial-gradient(circle_at_1px_1px,var(--border)_1px,transparent_0)] [background-size:28px_28px]"
       />
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <div className="animate-fade-up grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+        <div className="animate-fade-up grid items-center gap-10 lg:grid-cols-2 lg:gap-8">
           <div className="order-2 lg:order-1">
             <div className="relative mx-auto w-fit lg:mx-0">
               <div className="absolute -inset-2 rounded-full bg-gradient-to-br from-primary/50 via-primary/20 to-transparent blur-xl" />
