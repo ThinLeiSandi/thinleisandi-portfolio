@@ -224,7 +224,7 @@ function Hero() {
               Open to Data Science & ML internships
             </div>
             <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl md:text-6xl">
-              Hi, I'm <span className="text-gradient">Thin Lei Sandi</span>
+              <span className="whitespace-nowrap">Hi, I'm <span className="text-gradient">Thin Lei Sandi</span></span>
               <br />
               <span className="text-muted-foreground">turning data into decisions.</span>
             </h1>
