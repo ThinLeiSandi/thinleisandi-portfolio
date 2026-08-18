@@ -209,7 +209,7 @@ function Hero() {
                 <img
                   src={sandiPhoto.url}
                   alt="Thin Lei Sandi"
-                  className="h-48 w-48 rounded-full object-cover sm:h-56 sm:w-56 md:h-64 md:w-64"
+                  className="h-36 w-36 rounded-full object-cover sm:h-40 sm:w-40 md:h-44 md:w-44"
                 />
               </div>
               <div className="absolute -bottom-2 -right-2 rounded-2xl border border-border bg-background/80 px-3 py-2 backdrop-blur-md shadow-lg">
