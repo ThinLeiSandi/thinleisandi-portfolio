@@ -204,17 +204,17 @@ function Hero() {
         <div className="animate-fade-up grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="order-2 lg:order-1">
             <div className="relative mx-auto w-fit lg:mx-0">
-              <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-br from-primary/40 via-primary/10 to-transparent blur-lg" />
-              <div className="relative overflow-hidden rounded-[2rem] border border-border bg-secondary/30 p-2 shadow-2xl">
+              <div className="absolute -inset-2 rounded-full bg-gradient-to-br from-primary/50 via-primary/20 to-transparent blur-xl" />
+              <div className="relative overflow-hidden rounded-full border-2 border-border bg-secondary/30 p-1.5 shadow-2xl">
                 <img
                   src={sandiPhoto.url}
                   alt="Thin Lei Sandi"
-                  className="aspect-[4/5] w-[280px] rounded-[1.5rem] object-cover sm:w-[320px] md:w-[360px]"
+                  className="h-48 w-48 rounded-full object-cover sm:h-56 sm:w-56 md:h-64 md:w-64"
                 />
               </div>
-              <div className="absolute -bottom-4 -right-4 rounded-2xl border border-border bg-background/80 px-4 py-3 backdrop-blur-md shadow-lg">
-                <p className="font-display text-lg font-bold text-gradient">Final Year</p>
-                <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">CS Student</p>
+              <div className="absolute -bottom-2 -right-2 rounded-2xl border border-border bg-background/80 px-3 py-2 backdrop-blur-md shadow-lg">
+                <p className="font-display text-sm font-bold text-gradient">Final Year</p>
+                <p className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">CS Student</p>
               </div>
             </div>
           </div>
