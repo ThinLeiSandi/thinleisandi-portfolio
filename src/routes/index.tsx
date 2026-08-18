@@ -201,41 +201,60 @@ function Hero() {
         className="absolute inset-0 -z-10 opacity-40 [background-image:radial-gradient(circle_at_1px_1px,var(--border)_1px,transparent_0)] [background-size:28px_28px]"
       />
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <div className="animate-fade-up">
-          <div className="glow-dot mb-6 inline-flex items-center rounded-full border border-border bg-secondary/50 px-3 py-1 text-xs text-muted-foreground">
-            Open to Data Science & ML internships
+        <div className="animate-fade-up grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+          <div className="order-2 lg:order-1">
+            <div className="relative mx-auto w-fit lg:mx-0">
+              <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-br from-primary/40 via-primary/10 to-transparent blur-lg" />
+              <div className="relative overflow-hidden rounded-[2rem] border border-border bg-secondary/30 p-2 shadow-2xl">
+                <img
+                  src={sandiPhoto.url}
+                  alt="Thin Lei Sandi"
+                  className="aspect-[4/5] w-[280px] rounded-[1.5rem] object-cover sm:w-[320px] md:w-[360px]"
+                />
+              </div>
+              <div className="absolute -bottom-4 -right-4 rounded-2xl border border-border bg-background/80 px-4 py-3 backdrop-blur-md shadow-lg">
+                <p className="font-display text-lg font-bold text-gradient">Final Year</p>
+                <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">CS Student</p>
+              </div>
+            </div>
           </div>
-          <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl md:text-7xl">
-            Hi, I'm <span className="text-gradient">Thin Lei Sandi</span>
-            <br />
-            <span className="text-muted-foreground">turning data into decisions.</span>
-          </h1>
-          <p className="mt-6 max-w-2xl font-mono text-sm text-muted-foreground md:text-base">
-            Computer Science Student · Data Science · Machine Learning
-          </p>
-          <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Final-year Computer Science student at{" "}
-            <span className="text-foreground">Ton Duc Thang University</span> with a
-            strong interest in Data Science, Machine Learning and NLP. I like
-            working on projects that combine technical problem solving with
-            practical impact. My experience includes data analysis and
-            visualizations, early warning systems, big data processing and UI/UX
-            design.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <a
-              href="#projects"
-              className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
-            >
-              View Projects
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-            </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 rounded-xl border border-border bg-secondary/60 px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
-            >
-              Contact Me
-            </a>
+
+          <div className="order-1 lg:order-2">
+            <div className="glow-dot mb-6 inline-flex items-center rounded-full border border-border bg-secondary/50 px-3 py-1 text-xs text-muted-foreground">
+              Open to Data Science & ML internships
+            </div>
+            <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl md:text-6xl">
+              Hi, I'm <span className="text-gradient">Thin Lei Sandi</span>
+              <br />
+              <span className="text-muted-foreground">turning data into decisions.</span>
+            </h1>
+            <p className="mt-6 max-w-2xl font-mono text-sm text-muted-foreground md:text-base">
+              Computer Science Student · Data Science · Machine Learning
+            </p>
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+              Final-year Computer Science student at{" "}
+              <span className="text-foreground">Ton Duc Thang University</span> with a
+              strong interest in Data Science, Machine Learning and NLP. I like
+              working on projects that combine technical problem solving with
+              practical impact. My experience includes data analysis and
+              visualizations, early warning systems, big data processing and UI/UX
+              design.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-3">
+              <a
+                href="#projects"
+                className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
+              >
+                View Projects
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 rounded-xl border border-border bg-secondary/60 px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
+              >
+                Contact Me
+              </a>
+            </div>
           </div>
         </div>
       </div>
