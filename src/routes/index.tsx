@@ -202,7 +202,7 @@ function Hero() {
       />
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="animate-fade-up grid items-center gap-10 lg:grid-cols-2 lg:gap-4">
-          <div className="order-2 lg:order-1 lg:justify-self-end">
+          <div className="order-2 lg:order-1">
             <div className="relative mx-auto w-fit lg:mx-0">
               <div className="absolute -inset-2 rounded-full bg-gradient-to-br from-primary/50 via-primary/20 to-transparent blur-xl" />
               <div className="relative overflow-hidden rounded-full border-2 border-border bg-secondary/30 p-1.5 shadow-2xl">
